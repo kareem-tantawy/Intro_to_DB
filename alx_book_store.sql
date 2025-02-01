@@ -20,7 +20,7 @@ CREATE table Customers(
     customer_id INT,
     customer_name VARCHAR(215),
     email VARCHAR(215),
-    address VARCHAR,
+    address TEXT,
     PRIMARY KEY(customer_id)
 );
 
